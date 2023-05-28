@@ -18,7 +18,7 @@ box-sizing: border-box;
     border-radius: 10px;
 }
 
-.calculator form input{
+.calculator button{
     border: 0;
     outline: 0;
     width: 60px;
@@ -30,15 +30,16 @@ box-sizing: border-box;
     color: #fff;
     cursor: pointer;
     margin: 10px;
+    flex: 1;
 }
 
-form .display{
+.display{
     display: flex;
     justify-content:flex-end;
     margin: 20px 0 ;
 }
 
-form .display input {
+.display input {
     text-align: right;
     flex: 1;
     font-size: 45px;
